@@ -1,0 +1,93 @@
+.pizzacard {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.badge {
+    position: absolute;
+    background-color: #ff5722;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+.pizza-image {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 15px;
+}
+
+.pizza-title {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.description {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0 10px;
+}
+
+.size-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-start;
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.controls button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #b0b0b0; /* Серый цвет */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #8f8f8f; /* Более темный серый при наведении */
+}
+
+.controls .add-to-cart {
+    background-color: #4caf50;
+}
+
+.controls .add-to-cart:hover {
+    background-color: #388e3c;
+}
+
+.controls span {
+    font-size: 18px;
+    color: #333;
+}
